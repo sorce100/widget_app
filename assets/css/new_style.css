@@ -1,0 +1,68 @@
+.btn-bg-primary .bg-primary{
+	background-color: #094BA3;color: white;
+}
+
+#bg-primary{
+	background-color: #094BA3;
+	color: white;
+}
+
+.login_btn{
+  background-color: #6F6F6F;
+  color: white;
+}
+
+.login_btn:hover{
+  background-color: #6F6F6F;
+  color: white;
+}
+
+.blink_me {
+  animation: blinker 2s step-start infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .modal-xl {
+    width: 95%;
+   max-width:1200px;
+  }
+}
+
+@media (min-width: 768px) {
+  .modal-xxl {
+    width: 95%;
+   max-width:1700px;
+  }
+}
+
+/*for accept conditions*/
+.tacbox {
+  display:block;
+  padding: 1em;
+  margin: 2em;
+  border: 3px solid #ddd;
+  background-color: #eee;
+  max-width: 800px;
+}
+
+.input_checkbox {
+  height: 2em;
+  width: 2em;
+  vertical-align: middle;
+}
+
+fieldset {
+	padding: 12px;
+}
+
+legend {
+  background-color: #BBCDE4;
+  color: white;
+  padding: 5px 10px;
+}
